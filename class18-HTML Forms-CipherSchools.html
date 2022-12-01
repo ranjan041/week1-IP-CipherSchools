@@ -1,0 +1,126 @@
+[22:12, 12/1/2022] Ayush: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figures and Captions</title>
+</head>
+<body>
+    <figure>
+        <img src="images/BGI12.jpg" alt="Circle" width="500px">
+        <figcaption>This is a Circle</figcaption>
+    </figure>
+    <!-- In behavior, scroll, slide, alternate -->
+    <marquee behavior="alternate" direction="left">This is bootcamp 1st day</marquee>
+</body>
+</html>
+[22:14, 12/1/2022] Ayush: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <iframe src="class15-Figures and Captions in HTML-CipherSchools.html" frameborder="20" width="100%" height="500px"></iframe>
+    
+    <!-- Google Maps -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482632.8035694172!2d72.600975581439!3d19.08268809890597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1669541950321!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</body>
+</html>
+[22:17, 12/1/2022] Ayush: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generic Elements in HTML</title>
+</head>
+<body>
+    <!-- div is a block level element and span is a inline element-->
+    <!-- div wrap up everything in a particular container and we can add style to it-->
+    <div class="box">
+        <h1>This is the Heading</h1>
+        <p>This is first <span style="color:blue";>paragraph</span></p>
+        <p>This is second paragraph</p>
+        <p>This is third paragraph</p>
+    </div>
+</body>
+</html>
+[22:19, 12/1/2022] Ayush: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+   <form action="forms.html" method="GET">
+        <label for="name">Name</label>
+        <input type="text" name="Name" id="name" placeholder="Enter Your Name" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email" placeholder="Enter Your Email" required>
+        <br>
+        <br>
+        <label for="search">Search</label>
+        <input type="search" name="Search" id="search" placeholder="&#128269;">
+        <br>
+        <br>
+        <label for="tel">Phone Number</label>
+        <input type="tel" name="Phone" id="tel" placeholder="Enter Your Phone Number">
+        <br>
+        <br>
+        <label for="birthdaytime">Birthday (date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <br>
+        <br>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <br>
+        <br>
+        <label for="avatar">Choose a profile picture:</label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+        <br>
+        <br>
+        Name: <input type="text" name="usrname">
+        <input type="submit">    
+        <br>    
+        <textarea name="comment" form="usrform">Enter text here...</textarea>
+        <label for="fname">First Name</label>
+	<input type="text" id="fname" name="fname"><br>
+	<label for="lname">Last Name</label>
+	<input type="text" id="lname" name="lname"><br>
+	<!-- Radio Button-->
+	<label>LPU STUDENT</label>
+	<input type="radio" id="lpu" name="lpu"><br>
+	<label>NON-LPU STUDENT</label>
+	<input type="radio" id="nlpu" name="nlpu"><br>
+	<!-- Checkbox-->
+	<label for="fcheck">Attending The IP Class</label>
+	<input type="checkbox" id="fcheck" name="fcheck"><br>
+	<!-- Password -->
+	<label for="fpass">LPU PORTAL PASSWORD</label>
+	<input type="password" id="fpass" name="fpass"><br>
+	<!-- File Upload Section -->
+	<label for="ffile">Upload Your Resume</label>
+	<input type="file" id="ffile" name="ffile"><br>
+	<!-- Dropdown -->
+	<label for="skill">Your Favourite Skill-</label>
+	<select id="skill">
+		<option>HTML</option>
+		<option>CSS</option>
+		<option>JS</option>
+	</select><br>
+	<!-- Text Area-->
+	<textarea id="txt" name="txt" rows="4" cols="50"></textarea><br>
+	<!--Submit Button-->
+	<!--No Label In Submit Button Only Input Is There-->
+	<input type="submit" value="submit"><br>
+    </form> 
+</body>
+</html>
